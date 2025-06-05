@@ -1,0 +1,64 @@
+---
+title: "Relative High Fitness and Genome-wide Diversity May Facilitate Plastic and Active Foragers' Diversification"
+author: <br><p style="color:red;">Dylan Padilla<br>Martha Muñoz, David Skelly</p>
+institute: <br><br>June 22, 2025<br>Yale Institute for Biospheric Studies<br>New Haven, Connecticut
+format: 
+  revealjs:
+    chalkboard: true
+    incremental: true
+    logo: imgs/yale-logo.png
+    footer: "🔗 [https://dylanpadilla.netlify.app/](https://dylanpadilla.netlify.app/)"
+    slide-number: true
+    multiplex: true
+    theme: [simple, assets/monash.scss]
+    show-slide-number: all
+    controls: true
+    width: 1280
+    height: 720
+    css: [assets/syntax-highlight.css, assets/custom.css, assets/pacman.css]
+    header-includes: |
+      <link rel="stylesheet" href="">
+execute:
+  echo: true
+---
+
+
+# [Outline]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<br>
+
+# [Introduction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/figure1.png){width=70%}
+</center>
+
+# [Results]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/figure2.png){width=55%}
+</center>
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/figure4.png){width=80%}
+</center>
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/figure5.png){width=55%}
+</center>
+
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/figure6.png){width=80%}
+</center>
+
