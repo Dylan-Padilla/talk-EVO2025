@@ -25,40 +25,302 @@ execute:
 
 # [Outline]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
-<br>
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+### [Introduction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+- Overview of the ways by which organisms forage in nature
+- Fitness landscapes and the link between foraging behaviors and diversification rates
+
+### [Methods]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+- State-dependent diversification framework
+- Ancestral state reconstruction
+- Patterns of genomic variation
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+### [Results and Discussion]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+- Explain variation in diversification rates across the Tree of Life
+- Elucidate a potential answer to this question of how fitness variation through different foraging behaviors can lead to species diversification
+
 
 # [Introduction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
-## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+## [Foraging behaviors lie along a continuum]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<center>
+<img float = "left" src = "imgs/cnemis.gif"  width = "420" height = "250">
+<img float = "right" src = "imgs/komodo.gif"  width = "420" height = "270">
+</center>
+
+:::
+
+::: {.column width='50%'}
+
+<center>
+<img float = "right" src = "imgs/sidewander.gif"  width = "420" height = "270">
+<img float = "left" src = "imgs/snapping-turtle.gif"  width = "420" height = "260">
+</center>
+
+:::
+
+::::
+
+
+## [Foraging behaviors may influence fitness]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/diag1.png){width=80%}
+</center>
+
+
+## [Foraging behaviors may influence fitness]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/diag2.png){width=80%}
+</center>
+
+
+
+## [Foraging behaviors may influence fitness]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/diag3.png){width=80%}
+</center>
+
+
+
+## [Foraging behaviors may influence fitness]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+<center>
+![](imgs/diag4.png){width=80%}
+</center>
+
+
+## [Predictions based on fitness landscapes]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
 <center>
 ![](imgs/figure1.png){width=70%}
 </center>
 
-# [Results]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+## [Predictions based on fitness landscapes]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<center>
+<br><br>
+![](imgs/figure1.png){width=80%}
+</center>
+
+:::
+
+::: {.column width='50%'}
+
+
+:::
+::::
+
+
+## [Predictions based on fitness landscapes]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<center>
+<br><br>
+![](imgs/figure1.png){width=80%}
+</center>
+
+:::
+
+::: {.column width='50%'}
+
+1. Active and plastic foraging may lead to high diversification if populations exploit new fitness peaks
+2. A plastic response may come at the cost of carrying around additional genetic machinery
+3. Restricted locomotion could lead to low diversification via stochastic processes such as drift
+
+:::
+::::
+
+
+
+# [Methods]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+## [Data source]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+![](imgs/genomesize.png)
+
+:::
+
+::: {.column width='50%'}
+
+- Physiological, behavioral, and life history data
+- Foraging behaviors: Active foragers, Plastic foragers, and Sit-and-wait foragers
+- 997 species of squamate reptiles distributed among 56 families
+
+:::
+::::
+
+
+## [Ancestral state reconstruction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+<br><br>
+
+::: {.column width='50%'}
+
+![](imgs/phylo.png)
+
+:::
+
+::: {.column width='50%'}
+
+- Fitted discrete-state Markov chain models
+- An equal-rates (ER) model, an all-rates-different model (ARD), a symmetrical model (SYM)
+- We compared the models' goodness of fit based on $AIC_{c}$
+
+:::
+::::
+
+## [State-dependent diversification framework]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+- We relied on state-dependent speciation and extinction models
+- We started with a null model
+- Next, we fitted a model in which all rates of speciation and extinction depended on the character state for our multi-state character
+- We fitted models varying ($\lambda$) between states, only ($\mu$), and neither $\lambda$ nor $\mu$
+
+- We compared the models' goodness of fit based on $AIC_{c}$
+
+
+## [Genome size and genetic diversity]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+::: {.column width='50%'}
+
+![](imgs/ncbi.png)<br>
+
+- 99 squamate species distributed among 29 families
+
+:::
+
+::: {.column width='50%'}
+
+- Association between genome size and the foraging behavior of species
+- We fitted a set of PGLS models
+- We compared the models' goodness of fit based on $AIC_{c}$
+- We compared $\pi$ of an active forager (*Podarcis muralis*) vs sit-and-wait forager (*Anolis carolinensis*)
+
+:::
+::::
+
+
+# [Results and Discussion]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
 ## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
+Plastic foraging and active foraging are associated with higher diversification rates
+
 <center>
-![](imgs/figure2.png){width=55%}
+![](imgs/figure2.3.png){width=36%}
 </center>
 
 ## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+Active foraging appears to be the ancestral state of all reptiles (0.639)
+
+<center>
+![](imgs/figure2.1.png){width=59%}
+</center>
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+Sit-and-wait -> active foraging ($\sim64$), succeeded by Sit-and-wait -> plastic foraging ($\sim57$)
+
+<center>
+![](imgs/figure2.1.png){width=59%}
+![](imgs/figure2.2.png){width=40%}
+</center>
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+Active foragers and sit-and-wait foragers may be stabilizing in the present but plastic-foraging lineages grow almost monotonically
 
 <center>
 ![](imgs/figure4.png){width=80%}
 </center>
 
+
 ## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
+Not only was the net diversification of plastic foragers high, but they also evolved high reproductive effort
+
 <center>
-![](imgs/figure5.png){width=55%}
+![](imgs/figure4.png){width=80%}
 </center>
 
 
 ## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+Plastic foragers' large genomes potentially contain more genes, more and longer introns, and more transposable elements
+
+<center>
+![](imgs/figure5.png)
+</center>
+
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+A high genome-wide nucleotide diversity among active foragers could compensate for the small size of active foragers' genomes
 
 <center>
 ![](imgs/figure6.png){width=80%}
 </center>
 
+
+## [Summary]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+- Plastic foragers and active foragers not only have high diversification rates but may also have higher fitness compared to sit-and-wait foragers
+
+- Plastic foragers could accelerate the pace of evolution by exposing cryptic genetic variation to selection
+
+- A higher genome-wide nucleotide diversity among active foragers could make up for the small size of their genomes
+
+- Restricted locomotion among sit-and-wait foragers potentially led to relatively low diversification via stochastic processes such as population bottlenecks
+
+
+## []{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+<br><br><br><br><br>
+
+For a preprint of the study, check out the qrcode 👉🏼
+
+:::
+
+::: {.column width='50%'}
+
+<br>
+
+![](imgs/qrcode.png)
+
+:::
+::::
