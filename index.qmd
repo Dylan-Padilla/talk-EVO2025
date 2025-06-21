@@ -43,7 +43,7 @@ execute:
 ### [Results and Discussion]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
 - Explain variation in diversification rates across the Tree of Life
-- Elucidate a potential answer to this question of how fitness variation through different foraging behaviors can lead to species diversification
+- Elucidate a potential answer to the question of how fitness variation through different foraging behaviors can lead to species diversification
 
 
 # [Introduction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
