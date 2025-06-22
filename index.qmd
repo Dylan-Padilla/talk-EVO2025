@@ -172,7 +172,27 @@ execute:
 
 - Physiological, behavioral, and life history data
 - Foraging behaviors: Active foragers, Plastic foragers, and Sit-and-wait foragers
-- 997 species of squamate reptiles distributed among 56 families
+- Reproductive effort: Average clutch size x Average # clutches per year
+
+:::
+::::
+
+
+## [Data source]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+![](imgs/genomesize.png)
+
+:::
+
+::: {.column width='50%'}
+
+- Genome size (Mb)
+- Maximum body mass (g)
+- 997 species distributed among 56 families
 
 :::
 ::::
