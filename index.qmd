@@ -178,27 +178,6 @@ execute:
 ::::
 
 
-## [Ancestral state reconstruction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
-
-:::: {.columns}
-
-<br><br>
-
-::: {.column width='50%'}
-
-![](imgs/phylo.png)
-
-:::
-
-::: {.column width='50%'}
-
-- Fitted discrete-state Markov chain models
-- An equal-rates (ER) model, an all-rates-different model (ARD), a symmetrical model (SYM)
-- We compared the models' goodness of fit based on $AIC_{c}$
-
-:::
-::::
-
 ## [State-dependent diversification framework]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
 
 - We relied on state-dependent speciation and extinction models
@@ -225,6 +204,27 @@ execute:
 - We fitted a set of PGLS models
 - We compared the models' goodness of fit based on $AIC_{c}$
 - We compared $\pi$ of an active forager (*Podarcis muralis*) vs sit-and-wait forager (*Anolis carolinensis*)
+
+:::
+::::
+
+## [Ancestral state reconstruction]{style="font-family:Comic Sans MS;font-weight:normal;color:purple"} {background=''}
+
+:::: {.columns}
+
+<br><br>
+
+::: {.column width='50%'}
+
+![](imgs/phylo.png)
+
+:::
+
+::: {.column width='50%'}
+
+- Fitted discrete-state Markov chain models
+- An equal-rates (ER) model, an all-rates-different model (ARD), a symmetrical model (SYM)
+- We compared the models' goodness of fit based on $AIC_{c}$
 
 :::
 ::::
