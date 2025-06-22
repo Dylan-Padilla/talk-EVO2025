@@ -190,7 +190,6 @@ execute:
 
 ::: {.column width='50%'}
 
-- Genome size (Mb)
 - Maximum body mass (g)
 - 997 species distributed among 56 families
 
